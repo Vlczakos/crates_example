@@ -1,0 +1,1 @@
+/home/vlczak/programming/AZD/crates_example/program2/target/debug/program2: /home/vlczak/programming/AZD/crates_example/crate1/src/lib.rs /home/vlczak/programming/AZD/crates_example/program2/src/main.rs
