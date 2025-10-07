@@ -1,0 +1,3 @@
+## Ukazka jak fungují crates v Rustu
+
+Jsou tu dva programy a dve crate, kazda crate ma v sobe pouze jednu funkci ktera vypise jednoduchou zpravu do konzole. Program 1 je zavisly na obou crate a volá funkci v kazde z nich. Program 2 je zavisly pouze na jedne z nich a take na verejne crate "rand" ktera je dostupna na crates.io. Zavislosti programu jsou zapsany vzdy v Cargo.toml souboru. V programech se ted na crate odkazuje pomoci relativni cesty ke crate, je mozne odkazovat mnoho zpusoby, napriklad pomoci repozitare na github, treba i na konkretni branch/commit. Na crates ktere jsou zverejnene na crates.io se nemusi zadavat nic krome verze crate jak je ukazano na crate "rand" v programu 2
